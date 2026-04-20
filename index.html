@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aviator Prediction</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#8B0000">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Splash -->
+<div id="splash">
+  <div class="logo">✈️</div>
+  <h1>Aviator Prediction</h1>
+</div>
+
+<!-- Landing -->
+<div id="landing">
+  <h1>Aviator Prediction</h1>
+  <p id="quote"></p>
+  <button id="startBtn">Start Predicting</button>
+</div>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="spinner"></div>
+</div>
+
+<!-- App -->
+<div id="appContainer">
+  <iframe 
+    src="https://bright-sky-pulse-pro.base44.app/" 
+    id="appFrame"
+    loading="lazy">
+  </iframe>
+
+  <div id="bottomBar">
+    <span id="barQuote"></span>
+  </div>
+</div>
+
+<button id="installBtn">Install</button>
+
+<script src="script.js"></script>
+</body>
+</html>
